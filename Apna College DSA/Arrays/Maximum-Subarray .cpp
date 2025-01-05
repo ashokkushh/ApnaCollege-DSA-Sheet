@@ -6,9 +6,9 @@ public:
         int* num = nums.data();
         int lar = num[0];
         int n = nums.size();
-        for(int i =1;i<n;i++){
-              lar = (num[i] > lar) ? num[i] : lar;
-        }
+        // for(int i =1;i<n;i++){
+        //       lar = (num[i] > lar) ? num[i] : lar;
+        // }
         if(lar <= 0){
             return lar;
         }
